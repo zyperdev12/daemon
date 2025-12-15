@@ -10,12 +10,69 @@
 ## 🎯 What is the Daemon?
 
 The ZyperPanel Daemon is a lightweight Node.js service that runs on your game server nodes. It communicates with the main panel to manage Docker containers, execute commands, and monitor server resources.
-┌─────────────────┐ ┌─────────────────┐
-│ ZyperPanel │◄────►│ Daemon │
-│ (Main UI) │ │ (Node.js) │
-└─────────────────┘ └─────────────────┘
-│
-┌────────▼────────┐
-│ Docker Containers│
-│ (Game Servers) │
-└──────────────────┘
+
+
+## ✨ Features
+
+### 🐳 **Container Management**
+- Docker container creation & management
+- Auto-start on system boot
+- Resource limits (CPU, RAM)
+- Port mapping & network configuration
+
+### 📊 **Real-time Monitoring**
+- CPU & Memory usage tracking
+- Server uptime monitoring
+- Player count statistics
+- Network I/O monitoring
+
+### 🔧 **Server Control**
+- Start/Stop/Restart servers
+- Console command execution
+- File management (upload/download/edit)
+- Backup & restore operations
+
+### 🔐 **Security**
+- API key authentication
+- Container isolation
+- Resource limits per server
+- Secure WebSocket connections
+
+## 🚀 Quick Installation
+
+### Prerequisites
+
+Node.js 18.x or higher
+Docker & Docker Compose
+At least 2GB RAM free
+Linux/Unix system (Ubuntu/Debian/CentOS)
+
+
+### 1. Clone & Install
+```bash
+# Clone the daemon repository
+git clone https://github.com/yourusername/zyperpanel-daemon.git
+cd zyperpanel-daemon
+```
+# Install dependencies
+```bash
+npm install
+```
+
+### 2. I Setup auto Config So, Now let's start the Node
+```bash
+npm install -g pm2
+```
+
+```
+pm2 start npm --name "Zyper-Daemon" -- start
+```
+pm2 save
+```
+```
+pm2 startup
+```
+
+```
+
+
