@@ -10,3 +10,12 @@
 ## 🎯 What is the Daemon?
 
 The ZyperPanel Daemon is a lightweight Node.js service that runs on your game server nodes. It communicates with the main panel to manage Docker containers, execute commands, and monitor server resources.
+┌─────────────────┐ ┌─────────────────┐
+│ ZyperPanel │◄────►│ Daemon │
+│ (Main UI) │ │ (Node.js) │
+└─────────────────┘ └─────────────────┘
+│
+┌────────▼────────┐
+│ Docker Containers│
+│ (Game Servers) │
+└──────────────────┘
