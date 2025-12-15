@@ -1,0 +1,27 @@
+{
+  "nodeId": "c3e315df-646d-4590-98e1-0c624097054b",
+  "nodeKey": "ac315994f3a9bde8c6821d9384a2ebe56361f45e67bf73105699ab3ec07d2d36",
+  "nodeName": "codesandbox-20251210",
+  "port": 8080,
+  "location": "CodeSandbox",
+  "configured": true,
+  "servers": {
+  },
+  "stats": {
+    "cpu": 0.3,
+    "memory": {
+      "total": 4301111296,
+      "used": 14895104,
+      "free": 2284236800,
+      "percent": "0.35"
+    },
+    "uptime": 1380.701431486,
+    "platform": "linux",
+    "arch": "x64",
+    "nodeVersion": "v20.12.0",
+    "activeServers": 0
+  },
+  "panelUrl": "http://localhost:3000",
+  "panelKey": "ac315994f3a9bde8c6821d9384a2ebe56361f45e67bf73105699ab3ec07d2d36",
+  "configuredAt": "2025-12-10T09:41:33.339Z"
+}
