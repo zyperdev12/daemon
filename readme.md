@@ -51,8 +51,8 @@ Linux/Unix system (Ubuntu/Debian/CentOS)
 ### 1. Clone & Install
 ```bash
 # Clone the daemon repository
-git clone https://github.com/yourusername/zyperpanel-daemon.git
-cd zyperpanel-daemon
+git clone https://github.com/zyperdev12/daemon.git
+cd daemon
 ```
 # Install dependencies
 ```bash
