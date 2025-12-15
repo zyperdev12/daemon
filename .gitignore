@@ -1,0 +1,10 @@
+node_modules/
+*.log
+logs/
+config/node.json
+servers/*/
+storage/cache/
+storage/backups/
+.env
+*.tmp
+*.pid
