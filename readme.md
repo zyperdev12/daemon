@@ -74,5 +74,14 @@ pm2 save
 pm2 startup
 ```
 
+### 3. Install All java versions
+```bash
+sudo apt update && \
+sudo apt install -y wget curl ca-certificates apt-transport-https gpg lsb-release && \
+wget -O - https://packages.adoptium.net/artifactory/api/gpg/key/public | sudo gpg --dearmor -o /usr/share/keyrings/adoptium.gpg && \
+echo "deb [signed-by=/usr/share/keyrings/adoptium.gpg] https://packages.adoptium.net/artifactory/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/adoptium.list && \
+sudo apt update && \
+sudo apt install -y temurin-8-jdk temurin-11-jdk temurin-17-jdk temurin-21-jdk
+```
 
 
